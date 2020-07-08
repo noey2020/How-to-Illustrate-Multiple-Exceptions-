@@ -21,7 +21,7 @@ are cleared. When TIM4 counts up to CCR1 but hits ARR earlier, the Update Interr
 is set indicating match or overflow, whichever comes first. Our IF condition will check 
 for this flag or update event generation.
 
-The code was adapted from: https://github.com/noey2020/How-to-Write-Timer-Trigger-ADC-STM32L1/blob/master/main.c.
+The code was adapted from: https://github.com/noey2020/How-to-Write-Timer-Trigger-ADC-STM32L1.
 The short story is the timer triggers the adc in external mode to start conversions. 
 Timer runs periodically.
 
